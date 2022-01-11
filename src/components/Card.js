@@ -8,10 +8,9 @@ const Card = ({ name, email, id }) => {
         src={`https://robohash.org/${id}?size=200x200`}
         alt="robot"
       />
-      <div>
-        <h2>{name}</h2>
-        <p>{email}</p>
-      </div>
+
+      <div className="ma2 fw5">{name}</div>
+      <div className="fw1">{email}</div>
     </div>
   );
 };
